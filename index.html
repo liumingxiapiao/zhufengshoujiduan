@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>zhufengshouye</title>
+    <link rel="stylesheet" href="index.css/reset.min.css">
+    <link rel="stylesheet" href="index.css/swiper.min.css">
+    <link rel="stylesheet" href="index.css/.css">
+</head>
+
+<body>
+    <!-- heafer  html新增的标签 -->
+    <header>
+        <h1 class="logo">
+            <a href="#"></a>
+        </h1>
+        <div class="menu">
+            <span class="icon-menu"></span>
+        </div>
+    </header>
+
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <a href="#"> <img src="imgs/Layer 33.png" alt=""> </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="#"> <img src="imgs/Layer 33.png" alt=""> </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="#"> <img src="imgs/Layer 33.png" alt=""> </a>
+            </div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+
+
+    </div>
+    <!-- main开始 -->
+    <div class="good">
+<img src="imgs/首页图标滑过.png" alt="">
+<P>全部课程</P>
+    </div>
+    <main>
+       <div class="small"><img src="imgs/" alt=""></div>
+        <section class="item">
+            <a href="#">
+                <div class="pic">
+                    <img src="imgs/Layer 33.png" alt="">
+                </div>
+                <div class="txt">
+                    <h2>Vue.js从理论精讲到项目实战课程</h2>
+                    <p>5000.00元</p>
+                </div>
+            </a>
+        </section>
+        <section class="item">
+                <a href="#">
+                    <div class="pic">
+                        <img src="imgs/Layer 33.png" alt="">
+                    </div>
+                    <div class="txt">
+                        <h2>Vue.js从理论精讲到项目实战课程</h2>
+                        <p>5000.00元</p>
+                    </div>
+                </a>
+            </section>
+            <section class="item">
+                    <a href="#">
+                        <div class="pic">
+                            <img src="imgs/Layer 33.png" alt="">
+                        </div>
+                        <div class="txt">
+                            <h2>Vue.js从理论精讲到项目实战课程</h2>
+                            <p>5000.00元</p>
+                        </div>
+                    </a>
+                </section>
+                <section class="item">
+                        <a href="#">
+                            <div class="pic">
+                                <img src="imgs/Layer 33.png" alt="">
+                            </div>
+                            <div class="txt">
+                                <h2>Vue.js从理论精讲到项目实战课程</h2>
+                                <p>5000.00元</p>
+                            </div>
+                        </a>
+                    </section>
+                    <section class="item">
+                            <a href="#">
+                                <div class="pic">
+                                    <img src="imgs/Layer 33.png" alt="">
+                                </div>
+                                <div class="txt">
+                                    <h2>Vue.js从理论精讲到项目实战课程</h2>
+                                    <p>5000.00元</p>
+                                </div>
+                            </a>
+                        </section>
+                        <section class="item">
+                                <a href="#">
+                                    <div class="pic">
+                                        <img src="imgs/Layer 33.png" alt="">
+                                    </div>
+                                    <div class="txt">
+                                        <h2>Vue.js从理论精讲到项目实战课程</h2>
+                                        <p>5000.00元</p>
+                                    </div>
+                                </a>
+                            </section>
+    </main>
+         <!-- 页脚 -->
+      <div class="foot">
+          <div class="one"><a href=""><img src="imgs/我的课程.png" alt=""><p>首页</p></a></div>
+          <div class="two"> <a href=""><img src="imgs/我的课程.png" alt=""> <p>我的课程</p></a></div>
+          <div class="three"><a href=""><img src="imgs/个人中心.png" alt=""><p>个人中心</p></a></div>
+
+      </div>    
+
+
+
+    <script src="js/swiper.min.js"></script>
+    <script type="text/javascript">
+        function refreshRem() {
+            var desW = 640,
+                winW = document.documentElement.clientWidth,
+                ratio = winW / desW;
+            document.documentElement.style.fontSize = ratio * 100 + 'px';
+        }
+        refreshRem();
+        window.addEventListener('resize', refreshRem);
+    </script>
+    <script>
+        var mySwiper = new Swiper('.swiper-container', {
+
+            loop: true, // 循环模式选项
+
+            // 如果需要分页器
+            pagination: {
+                el: '.swiper-pagination',
+            },
+            pagination: {
+                el: '.sswiper-container'
+
+
+            },
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false
+
+            }
+        })        
+    </script>
+
+</body>
+
+</html>
